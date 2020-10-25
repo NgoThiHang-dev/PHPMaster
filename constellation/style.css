@@ -1,0 +1,66 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #999;
+}
+
+#content {
+    background-color: #fff;
+    margin: 50px auto;
+    width: 600px;
+    border: 1px solid#999;
+    padding: 10px;
+}
+
+#content h1 {
+    color: orange;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#content div.row {
+    margin-top: 20px;
+}
+
+#content div.row span {
+    display: inline-block;
+    width: 255px;
+    text-align: right;
+}
+
+#content div.row input[type=text] {
+    padding: 3px 5px;
+}
+
+#content div.row input[type=submit] {
+    display: block;
+    padding: 3px 5px;
+    margin: 0px auto 20px auto;
+}
+
+#content div.result {
+    margin-left: 50px;
+}
+
+#content div.result img {
+    border-radius: 50%;
+    border: 2px solid #a1a1a1;
+    height: 75px;
+    width: 75px;
+    float: left;
+    margin: 5px;
+}
+
+#content div.result p {
+    text-align: justify;
+    font-size: 20px;
+    height: 100px;
+    line-height: 100px;
+}
+
+#content div.result p span {
+    font-style: italic;
+}

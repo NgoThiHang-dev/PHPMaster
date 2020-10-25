@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #999;
+}
+
+#content {
+    background-color: #fff;
+    margin: 0px auto;
+    width: 600px;
+    border: 1px solid#999;
+    padding: 10px;
+}
+
+#content h1 {
+    color: orange;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#content div.row {
+    margin-top: 20px;
+}
+
+#content div.row span {
+    display: inline-block;
+    width: 255px;
+    text-align: right;
+}
+
+#content div.row input[type=text] {
+    padding: 3px 5px;
+}
+
+#content div.row input[type=submit] {
+    display: block;
+    padding: 3px 5px;
+    margin: 0px auto 20px auto;
+}
+
+
+/* #content div.row p {
+    color: brown;
+    text-align: center;
+} */
