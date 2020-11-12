@@ -1,0 +1,65 @@
+* {
+    margin: auto;
+    padding: 0px auto;
+}
+
+body {
+    background: burlywood;
+    margin: 20px auto;
+}
+
+#content {
+    width: 600px;
+    min-height: 500px;
+    border: 1px solid green;
+    background-color: rgb(255, 255, 255);
+}
+
+.wp-content {
+    min-height: 210px;
+}
+
+.info {
+    float: left;
+    width: 200px;
+}
+
+.info img {
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.contener {
+    float: left;
+    width: 380px;
+    height: 200px;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.contener h1 {
+    font-size: 36px;
+    color: brown;
+    text-align: center;
+}
+
+.contener h4 {
+    font-size: 20px;
+    color: rgb(33, 116, 26);
+    text-align: center;
+}
+
+.result {
+    margin: 10px;
+}
+
+.row input {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.row th {
+    width: 200px;
+    text-align: left;
+}
